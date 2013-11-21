@@ -20,6 +20,11 @@
 case node['platform_family']
 when 'rhel'
   package 'ImageMagick'
-when 'debian', 'mac_os_x'
+  package 'ImageMagick-c++'
+  package 'ImageMagick-c++-devel'
+when 'debian'
+  package 'imagemagick'
+  package 'libmagick++-dev'
+when 'mac_os_x'
   package 'imagemagick'
 end
