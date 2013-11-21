@@ -7,6 +7,7 @@ bash 'install jshint to the VM using npm' do
         sudo npm install mongodb -g
         sudo npm install nodecover -g
         sudo npm install mongoose -g
+        sudo npm install express -g
         sudo gem install compass
         sudo npm install compass -g
     EOH
