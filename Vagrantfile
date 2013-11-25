@@ -96,6 +96,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe("runit")
     chef.add_recipe("yum")
     chef.add_recipe("git")
+    chef.add_recipe("rake")
     chef.add_recipe("mongodb")
     chef.add_recipe("nodejs")
     chef.add_recipe("imagemagick")

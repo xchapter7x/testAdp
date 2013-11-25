@@ -1,1 +1,3 @@
 .vagrant/
+codeshare/*
+!codeshare/.empty
