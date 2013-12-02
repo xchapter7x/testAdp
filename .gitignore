@@ -1,3 +1,4 @@
 .vagrant/
 codeshare/*
 !codeshare/.empty
+.DS_Store
