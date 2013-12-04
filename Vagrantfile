@@ -101,7 +101,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe("nodejs")
     chef.add_recipe("imagemagick")
     chef.add_recipe("compass")
-    chef.add_recipe("gems")
+    chef.add_recipe("jshint")
+    chef.add_recipe("jasmine")
   #   chef.add_role "web"
   #
   #   # You may also specify custom JSON attributes:
